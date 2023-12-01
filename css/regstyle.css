@@ -1,0 +1,96 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+body {
+    /* background: linear-gradient(to right, rgb(92, 113, 233), #0443a0);  */
+    background-image: url(assets/images/bg.jpg);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.reg {
+    font-size: 0.9rem !important;
+    letter-spacing: 0.05rem !important;
+    padding: 0.75rem 1rem !important;
+    border-radius: 2rem !important;
+    border-color: rgb(48, 231, 63) !important;
+    color: rgb(48, 231, 63);
+    background-color: rgb(230, 209, 209) !important;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, rgb(48, 231, 63), rgb(48, 231, 63)) !important;
+}
+
+.small {
+    color: rgb(48, 231, 63);
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 70px;
+    color: #020202;
+    padding-bottom: 35px;
+}
+
+.form-control {
+    border-radius: 16px;
+}
+
+.card-signin {
+    border: 0;
+    border-radius: 2rem;
+
+    /* box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 350;
+    font-size: 2.9rem;
+}
+
+.card-signin .card-img-left {
+    width: 45%;
+
+    /* Link to your background image using in the property below! */
+
+    background-size: cover;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group select {
+    height: auto;
+    border-radius: 2rem;
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+}
